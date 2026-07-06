@@ -1,0 +1,3 @@
+/home/leopold/code_projects/cpp_programs/opengl/build/CMakeFiles/engine.dir
+/home/leopold/code_projects/cpp_programs/opengl/build/CMakeFiles/edit_cache.dir
+/home/leopold/code_projects/cpp_programs/opengl/build/CMakeFiles/rebuild_cache.dir

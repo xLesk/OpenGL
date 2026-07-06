@@ -1,0 +1,44 @@
+[
+{
+  "directory": "/home/leopold/code_projects/cpp_programs/opengl/build",
+  "command": "/usr/sbin/c++  -I/home/leopold/code_projects/cpp_programs/opengl/include -std=gnu++17 -o CMakeFiles/engine.dir/src/main.cpp.o -c /home/leopold/code_projects/cpp_programs/opengl/src/main.cpp",
+  "file": "/home/leopold/code_projects/cpp_programs/opengl/src/main.cpp",
+  "output": "CMakeFiles/engine.dir/src/main.cpp.o"
+},
+{
+  "directory": "/home/leopold/code_projects/cpp_programs/opengl/build",
+  "command": "/usr/sbin/cc  -I/home/leopold/code_projects/cpp_programs/opengl/include  -o CMakeFiles/engine.dir/src/glad.c.o -c /home/leopold/code_projects/cpp_programs/opengl/src/glad.c",
+  "file": "/home/leopold/code_projects/cpp_programs/opengl/src/glad.c",
+  "output": "CMakeFiles/engine.dir/src/glad.c.o"
+},
+{
+  "directory": "/home/leopold/code_projects/cpp_programs/opengl/build",
+  "command": "/usr/sbin/c++  -I/home/leopold/code_projects/cpp_programs/opengl/include -std=gnu++17 -o CMakeFiles/engine.dir/src/Core/Window.cpp.o -c /home/leopold/code_projects/cpp_programs/opengl/src/Core/Window.cpp",
+  "file": "/home/leopold/code_projects/cpp_programs/opengl/src/Core/Window.cpp",
+  "output": "CMakeFiles/engine.dir/src/Core/Window.cpp.o"
+},
+{
+  "directory": "/home/leopold/code_projects/cpp_programs/opengl/build",
+  "command": "/usr/sbin/c++  -I/home/leopold/code_projects/cpp_programs/opengl/include -std=gnu++17 -o CMakeFiles/engine.dir/src/Core/Shader.cpp.o -c /home/leopold/code_projects/cpp_programs/opengl/src/Core/Shader.cpp",
+  "file": "/home/leopold/code_projects/cpp_programs/opengl/src/Core/Shader.cpp",
+  "output": "CMakeFiles/engine.dir/src/Core/Shader.cpp.o"
+},
+{
+  "directory": "/home/leopold/code_projects/cpp_programs/opengl/build",
+  "command": "/usr/sbin/c++  -I/home/leopold/code_projects/cpp_programs/opengl/include -std=gnu++17 -o CMakeFiles/engine.dir/src/Core/camera.cpp.o -c /home/leopold/code_projects/cpp_programs/opengl/src/Core/camera.cpp",
+  "file": "/home/leopold/code_projects/cpp_programs/opengl/src/Core/camera.cpp",
+  "output": "CMakeFiles/engine.dir/src/Core/camera.cpp.o"
+},
+{
+  "directory": "/home/leopold/code_projects/cpp_programs/opengl/build",
+  "command": "/usr/sbin/c++  -I/home/leopold/code_projects/cpp_programs/opengl/include -std=gnu++17 -o CMakeFiles/engine.dir/src/Core/VAO_VBO_EBO.cpp.o -c /home/leopold/code_projects/cpp_programs/opengl/src/Core/VAO_VBO_EBO.cpp",
+  "file": "/home/leopold/code_projects/cpp_programs/opengl/src/Core/VAO_VBO_EBO.cpp",
+  "output": "CMakeFiles/engine.dir/src/Core/VAO_VBO_EBO.cpp.o"
+},
+{
+  "directory": "/home/leopold/code_projects/cpp_programs/opengl/build",
+  "command": "/usr/sbin/c++  -I/home/leopold/code_projects/cpp_programs/opengl/include -std=gnu++17 -o CMakeFiles/engine.dir/src/Core/stb_image.cpp.o -c /home/leopold/code_projects/cpp_programs/opengl/src/Core/stb_image.cpp",
+  "file": "/home/leopold/code_projects/cpp_programs/opengl/src/Core/stb_image.cpp",
+  "output": "CMakeFiles/engine.dir/src/Core/stb_image.cpp.o"
+}
+]
