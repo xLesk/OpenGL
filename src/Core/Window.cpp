@@ -1,4 +1,5 @@
 #include "Core/Window.hpp"
+#include "Core/Camera.hpp"
 #include <GLFW/glfw3.h>
 #include <iostream>
 
@@ -55,20 +56,24 @@ Window::~Window() {
 }
 
 // public:
-void Window::processInput(float *deltaPtr) {
+void Window::processInput(float dt) {
   if (glfwGetKey(window, GLFW_KEY_ENTER) == GLFW_PRESS) {
     glfwSetWindowShouldClose(window, true);
   }
 
   if (glfwGetKey(window, GLFW_KEY_W) == GLFW_PRESS) {
-    camera.ProcessKeyboard(FORWARD, *deltaPtr);
+    camera.ProcessKeyboard(FORWARD, dt);
   }
   if (glfwGetKey(window, GLFW_KEY_S) == GLFW_PRESS)
-    camera.ProcessKeyboard(BACKWARD, *deltaPtr);
+    camera.ProcessKeyboard(BACKWARD, dt);
   if (glfwGetKey(window, GLFW_KEY_A) == GLFW_PRESS)
-    camera.ProcessKeyboard(LEFT, *deltaPtr);
+    camera.ProcessKeyboard(LEFT, dt);
   if (glfwGetKey(window, GLFW_KEY_D) == GLFW_PRESS)
-    camera.ProcessKeyboard(RIGHT, *deltaPtr);
+    camera.ProcessKeyboard(RIGHT, dt);
+  if (glfwGetKey(window, GLFW_KEY_SPACE) == GLFW_PRESS)
+    camera.ProcessKeyboard(UP, dt);
+  if (glfwGetKey(window, GLFW_KEY_LEFT_CONTROL) == GLFW_PRESS)
+    camera.ProcessKeyboard(DOWN, dt);
 }
 
 bool Window::shouldClose() const { return glfwWindowShouldClose(window); }
@@ -109,4 +114,8 @@ void Window::scrollCallback(GLFWwindow *window, double xoffset,
   Window *self = static_cast<Window *>(glfwGetWindowUserPointer(window));
 
   self->camera.ProcessMouseScroll(static_cast<float>(yoffset));
+}
+
+float Window::aspectRatio() const {
+  return static_cast<float>(SCR_WIDTH) / SCR_HEIGHT;
 }

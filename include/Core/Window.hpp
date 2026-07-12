@@ -18,9 +18,10 @@ public:
 
   // window getter
   GLFWwindow *getWindow() const;
+  float aspectRatio() const;
 
   // input
-  void processInput(float *deltaPtr);
+  void processInput(float dt);
 
 private:
   GLFWwindow *window;

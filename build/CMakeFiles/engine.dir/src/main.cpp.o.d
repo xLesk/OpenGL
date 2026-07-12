@@ -228,61 +228,7 @@ CMakeFiles/engine.dir/src/main.cpp.o: \
  /usr/include/glm/detail/func_matrix.inl \
  /usr/include/glm/ext/matrix_transform.inl /usr/include/GLFW/glfw3.h \
  /home/leopold/code_projects/cpp_programs/opengl/include/Renderer/Shader.hpp \
- /usr/include/glm/glm.hpp /usr/include/c++/16/climits \
- /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/limits.h \
- /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/syslimits.h \
- /usr/include/limits.h /usr/include/bits/posix1_lim.h \
- /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
- /usr/include/bits/pthread_stack_min-dynamic.h \
- /usr/include/bits/posix2_lim.h /usr/include/bits/xopen_lim.h \
- /usr/include/bits/uio_lim.h /usr/include/c++/16/cfloat \
- /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/float.h \
- /usr/include/glm/fwd.hpp /usr/include/glm/packing.hpp \
- /usr/include/glm/detail/func_packing.inl \
- /usr/include/glm/detail/type_half.hpp \
- /usr/include/glm/detail/type_half.inl /usr/include/glm/integer.hpp \
- /usr/include/glm/detail/func_integer.inl \
- /usr/include/glm/gtc/type_ptr.hpp /usr/include/glm/gtc/quaternion.hpp \
- /usr/include/glm/gtc/matrix_transform.hpp \
- /usr/include/glm/ext/matrix_projection.hpp \
- /usr/include/glm/ext/matrix_projection.inl \
- /usr/include/glm/ext/matrix_clip_space.hpp \
- /usr/include/glm/ext/matrix_clip_space.inl \
- /usr/include/glm/gtc/matrix_transform.inl \
- /usr/include/glm/ext/vector_relational.hpp \
- /usr/include/glm/ext/vector_relational.inl \
- /usr/include/glm/detail/type_float.hpp \
- /usr/include/glm/ext/quaternion_common.hpp \
- /usr/include/glm/ext/quaternion_geometric.hpp \
- /usr/include/glm/ext/quaternion_geometric.inl \
- /usr/include/glm/ext/quaternion_common.inl \
- /usr/include/glm/ext/quaternion_float.hpp \
- /usr/include/glm/detail/type_quat.hpp \
- /usr/include/glm/ext/quaternion_relational.hpp \
- /usr/include/glm/ext/quaternion_relational.inl \
- /usr/include/glm/detail/type_quat.inl \
- /usr/include/glm/ext/quaternion_float_precision.hpp \
- /usr/include/glm/ext/quaternion_double.hpp \
- /usr/include/glm/ext/quaternion_double_precision.hpp \
- /usr/include/glm/ext/quaternion_trigonometric.hpp \
- /usr/include/glm/ext/quaternion_trigonometric.inl \
- /usr/include/glm/ext/quaternion_transform.hpp \
- /usr/include/glm/ext/quaternion_transform.inl \
- /usr/include/glm/gtc/quaternion.inl /usr/include/glm/gtc/epsilon.hpp \
- /usr/include/glm/detail/setup.hpp /usr/include/glm/gtc/epsilon.inl \
- /usr/include/glm/gtc/vec1.hpp /usr/include/glm/ext/vector_bool1.hpp \
- /usr/include/glm/ext/vector_bool1_precision.hpp \
- /usr/include/glm/ext/vector_float1.hpp \
- /usr/include/glm/ext/vector_float1_precision.hpp \
- /usr/include/glm/ext/vector_double1.hpp \
- /usr/include/glm/ext/vector_double1_precision.hpp \
- /usr/include/glm/ext/vector_int1.hpp \
- /usr/include/glm/ext/vector_int1_sized.hpp \
- /usr/include/glm/ext/vector_uint1.hpp \
- /usr/include/glm/ext/vector_uint1_sized.hpp /usr/include/c++/16/cstring \
- /usr/include/string.h /usr/include/strings.h \
- /usr/include/glm/gtc/type_ptr.inl /usr/include/c++/16/string \
- /usr/include/c++/16/bits/stringfwd.h \
+ /usr/include/c++/16/string /usr/include/c++/16/bits/stringfwd.h \
  /usr/include/c++/16/bits/char_traits.h \
  /usr/include/c++/16/bits/postypes.h /usr/include/c++/16/cwchar \
  /usr/include/wchar.h \
@@ -311,7 +257,6 @@ CMakeFiles/engine.dir/src/main.cpp.o: \
  /usr/include/c++/16/bits/basic_string.tcc \
  /home/leopold/code_projects/cpp_programs/opengl/third_party/stb/include/stb_image.hpp \
  /usr/include/c++/16/stdlib.h \
- /home/leopold/code_projects/cpp_programs/opengl/include/Renderer/Texture.hpp \
  /home/leopold/code_projects/cpp_programs/opengl/include/Renderer/VAO.hpp \
  /home/leopold/code_projects/cpp_programs/opengl/include/Renderer/VBO.hpp \
  /home/leopold/code_projects/cpp_programs/opengl/include/Renderer/EBO.hpp \

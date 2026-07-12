@@ -1,12 +1,12 @@
 //=
-#include <glm/glm.hpp>
-#include <iostream>
 #include "Core/Window.hpp"
-#include "Core/VAO_VBO_EBO.hpp"
-#include "Core/Shader.hpp"
-#include "Core/camera.hpp"
+#include "Core/Camera.hpp"
+#include "Renderer/Shader.hpp"
+#include "Renderer/Texture.hpp"
+#include "Renderer/VAO.hpp"
+#include "Renderer/VBO.hpp"
+#include "Renderer/EBO.hpp"
 #include "Graphics/Geometry.hpp"
-#include "Core/stb_image.hpp"
 //=
 
 int main() {

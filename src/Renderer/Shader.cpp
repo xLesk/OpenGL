@@ -1,5 +1,6 @@
 #include "Renderer/Shader.hpp"
 #include <fstream>
+#include <glm/gtc/type_ptr.hpp>
 #include <ostream>
 #include <iostream>
 #include <sstream>
@@ -36,10 +37,20 @@ void Shader::setFloat(const std::string &name, float value) const {
   glUniform1f(glGetUniformLocation(ID, name.c_str()), value);
 }
 
+void Shader::setVec3(const std::string &name, const glm::vec3 &value) const {
+  glUniform3f(glGetUniformLocation(ID, name.c_str()), value.x, value.y,
+              value.z);
+}
 void Shader::setMat4(const std::string &name, const glm::mat4 &value) const {
   glUniformMatrix4fv(glGetUniformLocation(ID, name.c_str()), 1, GL_FALSE,
                      glm::value_ptr(value));
 };
+
+void Shader::setCamera(const Camera &camera, float aspect) const {
+
+  setMat4("projection", camera.GetProjMatrix(aspect));
+  setMat4("view", camera.GetViewMatrix());
+}
 
 std::string Shader::read_shader(const char *shaderPath) const {
   std::string shaderCode;

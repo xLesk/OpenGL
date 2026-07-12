@@ -1,4 +1,6 @@
-#include "Core/camera.hpp"
+#include "Core/Camera.hpp"
+#include <glm/ext/matrix_clip_space.hpp>
+#include <glm/trigonometric.hpp>
 
 Camera::Camera(glm::vec3 position, glm::vec3 up, float yaw, float pitch)
     : Position(position), WorldUp(up), Yaw(yaw), Pitch(pitch),
@@ -21,9 +23,7 @@ glm::mat4 Camera::GetViewMatrix() const {
   return glm::lookAt(Position, Position + Front, Up);
 }
 
-// processes input received from any keyboard-like input system. Accepts input
-// parameter in the form of camera defined ENUM (to abstract it from windowing
-// systems)
+// processes input received from any keyboard-like input system.
 void Camera::ProcessKeyboard(Camera_Movement direction, float deltaTime) {
   float velocity = MovementSpeed * deltaTime;
   if (direction == FORWARD)
@@ -34,6 +34,10 @@ void Camera::ProcessKeyboard(Camera_Movement direction, float deltaTime) {
     Position -= Right * velocity;
   if (direction == RIGHT)
     Position += Right * velocity;
+  if (direction == UP)
+    Position += Up * velocity;
+  if (direction == DOWN)
+    Position -= Up * velocity;
 }
 
 // processes input received from a mouse input system. Expects the offset value
@@ -82,4 +86,8 @@ void Camera::updateCameraVectors() {
                         // closer to 0 the more you look up or down which
                         // results in slower movement.
   Up = glm::normalize(glm::cross(Right, Front));
+}
+
+glm::mat4 Camera::GetProjMatrix(float aspectRatio) const {
+  return glm::perspective(glm::radians(Zoom), aspectRatio, NEARPLANE, FARPLANE);
 }

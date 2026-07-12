@@ -1,7 +1,7 @@
 CMakeFiles/engine.dir/src/Core/Camera.cpp.o: \
  /home/leopold/code_projects/cpp_programs/opengl/src/Core/Camera.cpp \
  /usr/include/stdc-predef.h \
- /home/leopold/code_projects/cpp_programs/opengl/include/Core/camera.hpp \
+ /home/leopold/code_projects/cpp_programs/opengl/include/Core/Camera.hpp \
  /home/leopold/code_projects/cpp_programs/opengl/third_party/glad/include/glad/glad.h \
  /home/leopold/code_projects/cpp_programs/opengl/third_party/glad/include/KHR/khrplatform.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/stdint.h \
@@ -225,4 +225,6 @@ CMakeFiles/engine.dir/src/Core/Camera.cpp.o: \
  /usr/include/glm/ext/matrix_float4x4.hpp \
  /usr/include/glm/ext/matrix_float4x4_precision.hpp \
  /usr/include/glm/detail/func_matrix.inl \
- /usr/include/glm/ext/matrix_transform.inl
+ /usr/include/glm/ext/matrix_transform.inl \
+ /usr/include/glm/ext/matrix_clip_space.hpp \
+ /usr/include/glm/ext/matrix_clip_space.inl

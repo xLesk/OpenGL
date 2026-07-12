@@ -15,7 +15,7 @@ engine: \
   /usr/lib/libglfw.so.3.4 \
   /usr/lib/libGLX.so \
   /usr/lib/libOpenGL.so \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/libstdc++.so \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/16/libstdc++.a \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/libm.so \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/libm.so \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/libm.so \
@@ -49,7 +49,6 @@ engine: \
   /usr/lib/libGLdispatch.so.0 \
   /usr/lib32/libX11.so.6 \
   /usr/lib/libX11.so.6 \
-  /usr/lib/ld-linux-x86-64.so.2 \
   /usr/lib32/libxcb.so.1 \
   /usr/lib/libxcb.so.1 \
   /usr/lib32/libXau.so.6 \
@@ -89,7 +88,7 @@ CMakeFiles/engine.dir/third_party/glad/src/glad.c.o:
 
 /usr/lib/libOpenGL.so:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/libstdc++.so:
+/usr/lib/gcc/x86_64-pc-linux-gnu/16/libstdc++.a:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/libm.so:
 
@@ -156,8 +155,6 @@ CMakeFiles/engine.dir/third_party/glad/src/glad.c.o:
 /usr/lib32/libX11.so.6:
 
 /usr/lib/libX11.so.6:
-
-/usr/lib/ld-linux-x86-64.so.2:
 
 /usr/lib32/libxcb.so.1:
 

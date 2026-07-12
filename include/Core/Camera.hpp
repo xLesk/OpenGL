@@ -2,13 +2,15 @@
 #include <glad/glad.h>
 #include <glm/ext/matrix_transform.hpp>
 
-enum Camera_Movement { FORWARD, BACKWARD, LEFT, RIGHT };
+enum Camera_Movement { FORWARD, BACKWARD, LEFT, RIGHT, UP, DOWN };
 
 const float YAW(-90.0f);
 const float PITCH(0.0f);
 const float SPEED(2.5f);
 const float SENSITIVITY(0.05f);
 const float ZOOM(45.0f);
+const float NEARPLANE(0.1f);
+const float FARPLANE(100.0f);
 
 class Camera {
 public:
@@ -38,6 +40,7 @@ public:
          float yaw, float pitch);
 
   glm::mat4 GetViewMatrix() const;
+  glm::mat4 GetProjMatrix(float aspectRatio) const;
 
   void ProcessKeyboard(Camera_Movement direction, float deltaTime);
 
