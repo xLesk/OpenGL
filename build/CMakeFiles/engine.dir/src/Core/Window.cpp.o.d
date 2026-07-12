@@ -2,9 +2,9 @@ CMakeFiles/engine.dir/src/Core/Window.cpp.o: \
  /home/leopold/code_projects/cpp_programs/opengl/src/Core/Window.cpp \
  /usr/include/stdc-predef.h \
  /home/leopold/code_projects/cpp_programs/opengl/include/Core/Window.hpp \
- /home/leopold/code_projects/cpp_programs/opengl/include/Core/camera.hpp \
- /home/leopold/code_projects/cpp_programs/opengl/include/glad/glad.h \
- /home/leopold/code_projects/cpp_programs/opengl/include/KHR/khrplatform.h \
+ /home/leopold/code_projects/cpp_programs/opengl/include/Core/Camera.hpp \
+ /home/leopold/code_projects/cpp_programs/opengl/third_party/glad/include/glad/glad.h \
+ /home/leopold/code_projects/cpp_programs/opengl/third_party/glad/include/KHR/khrplatform.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/stdint.h \
  /usr/include/stdint.h /usr/include/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \

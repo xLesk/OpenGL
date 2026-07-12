@@ -8,28 +8,40 @@ find_package(OpenGL REQUIRED)
 find_package(glfw3 REQUIRED)
 
 add_executable(engine
+  # main
     src/main.cpp
-    src/glad.c
 
-    include/Core/Window.hpp
-    src/Core/Window.cpp
+    # Renderer
+    src/Renderer/Shader.cpp
+    
+    src/Renderer/Texture.cpp
 
-    include/Core/Shader.hpp
-    src/Core/Shader.cpp
+    src/Renderer/VAO.cpp
 
-    include/Core/camera.hpp
-    src/Core/camera.cpp
+    src/Renderer/VBO.cpp
 
-    include/Core/VAO_VBO_EBO.hpp
-    src/Core/VAO_VBO_EBO.cpp
+    src/Renderer/EBO.cpp
 
+    # Core
+    src/Core/Camera.cpp
+
+    src/Core/Window.cpp    
+
+
+    # Graphics
     include/Graphics/Geometry.hpp
 
-    include/Core/stb_image.hpp
-    src/Core/stb_image.cpp
+    # third party
+    third_party/stb/Core/stb_image.cpp
+    
+    third_party/glad/src/glad.c
 )
 
-target_include_directories(engine PRIVATE include)
+target_include_directories(engine PRIVATE
+    include
+    third_party/glad/include
+    third_party/stb/include
+  )
 
 target_link_libraries(engine
     OpenGL::GL

@@ -28,4 +28,6 @@ inline const std::array<glm::vec3, 10> cubePos = {
     glm::vec3(2.4f, -0.4f, -3.5f),  glm::vec3(-1.7f, 3.0f, -7.5f),
     glm::vec3(1.3f, -2.0f, -2.5f),  glm::vec3(1.5f, 2.0f, -2.5f),
     glm::vec3(1.5f, 0.2f, -1.5f),   glm::vec3(-1.3f, 1.0f, -1.5f)};
+
+inline const std::array<unsigned int, 6> indices = {0, 1, 3, 1, 2, 3};
 } // namespace Geometry

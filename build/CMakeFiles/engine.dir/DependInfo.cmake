@@ -8,13 +8,16 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/leopold/code_projects/cpp_programs/opengl/src/glad.c" "CMakeFiles/engine.dir/src/glad.c.o" "gcc" "CMakeFiles/engine.dir/src/glad.c.o.d"
-  "/home/leopold/code_projects/cpp_programs/opengl/src/Core/Shader.cpp" "CMakeFiles/engine.dir/src/Core/Shader.cpp.o" "gcc" "CMakeFiles/engine.dir/src/Core/Shader.cpp.o.d"
-  "/home/leopold/code_projects/cpp_programs/opengl/src/Core/VAO_VBO_EBO.cpp" "CMakeFiles/engine.dir/src/Core/VAO_VBO_EBO.cpp.o" "gcc" "CMakeFiles/engine.dir/src/Core/VAO_VBO_EBO.cpp.o.d"
+  "/home/leopold/code_projects/cpp_programs/opengl/third_party/glad/src/glad.c" "CMakeFiles/engine.dir/third_party/glad/src/glad.c.o" "gcc" "CMakeFiles/engine.dir/third_party/glad/src/glad.c.o.d"
+  "/home/leopold/code_projects/cpp_programs/opengl/src/Core/Camera.cpp" "CMakeFiles/engine.dir/src/Core/Camera.cpp.o" "gcc" "CMakeFiles/engine.dir/src/Core/Camera.cpp.o.d"
   "/home/leopold/code_projects/cpp_programs/opengl/src/Core/Window.cpp" "CMakeFiles/engine.dir/src/Core/Window.cpp.o" "gcc" "CMakeFiles/engine.dir/src/Core/Window.cpp.o.d"
-  "/home/leopold/code_projects/cpp_programs/opengl/src/Core/camera.cpp" "CMakeFiles/engine.dir/src/Core/camera.cpp.o" "gcc" "CMakeFiles/engine.dir/src/Core/camera.cpp.o.d"
-  "/home/leopold/code_projects/cpp_programs/opengl/src/Core/stb_image.cpp" "CMakeFiles/engine.dir/src/Core/stb_image.cpp.o" "gcc" "CMakeFiles/engine.dir/src/Core/stb_image.cpp.o.d"
+  "/home/leopold/code_projects/cpp_programs/opengl/src/Renderer/EBO.cpp" "CMakeFiles/engine.dir/src/Renderer/EBO.cpp.o" "gcc" "CMakeFiles/engine.dir/src/Renderer/EBO.cpp.o.d"
+  "/home/leopold/code_projects/cpp_programs/opengl/src/Renderer/Shader.cpp" "CMakeFiles/engine.dir/src/Renderer/Shader.cpp.o" "gcc" "CMakeFiles/engine.dir/src/Renderer/Shader.cpp.o.d"
+  "/home/leopold/code_projects/cpp_programs/opengl/src/Renderer/Texture.cpp" "CMakeFiles/engine.dir/src/Renderer/Texture.cpp.o" "gcc" "CMakeFiles/engine.dir/src/Renderer/Texture.cpp.o.d"
+  "/home/leopold/code_projects/cpp_programs/opengl/src/Renderer/VAO.cpp" "CMakeFiles/engine.dir/src/Renderer/VAO.cpp.o" "gcc" "CMakeFiles/engine.dir/src/Renderer/VAO.cpp.o.d"
+  "/home/leopold/code_projects/cpp_programs/opengl/src/Renderer/VBO.cpp" "CMakeFiles/engine.dir/src/Renderer/VBO.cpp.o" "gcc" "CMakeFiles/engine.dir/src/Renderer/VBO.cpp.o.d"
   "/home/leopold/code_projects/cpp_programs/opengl/src/main.cpp" "CMakeFiles/engine.dir/src/main.cpp.o" "gcc" "CMakeFiles/engine.dir/src/main.cpp.o.d"
+  "/home/leopold/code_projects/cpp_programs/opengl/third_party/stb/Core/stb_image.cpp" "CMakeFiles/engine.dir/third_party/stb/Core/stb_image.cpp.o" "gcc" "CMakeFiles/engine.dir/third_party/stb/Core/stb_image.cpp.o.d"
   "" "engine" "gcc" "CMakeFiles/engine.dir/link.d"
   )
 

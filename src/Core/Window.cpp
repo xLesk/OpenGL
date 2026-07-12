@@ -41,6 +41,7 @@ Window::Window(int SCR_WIDTH, int SCR_HEIGHT, const char *title)
 
   // Callbacks registrieren
   glfwSetFramebufferSizeCallback(window, framebufferCallback);
+
   glfwSetCursorPosCallback(window, mouseCallback);
   glfwSetScrollCallback(window, scrollCallback);
 

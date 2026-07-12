@@ -3,12 +3,15 @@ engine: \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o \
   CMakeFiles/engine.dir/src/main.cpp.o \
-  CMakeFiles/engine.dir/src/glad.c.o \
+  CMakeFiles/engine.dir/src/Renderer/Shader.cpp.o \
+  CMakeFiles/engine.dir/src/Renderer/Texture.cpp.o \
+  CMakeFiles/engine.dir/src/Renderer/VAO.cpp.o \
+  CMakeFiles/engine.dir/src/Renderer/VBO.cpp.o \
+  CMakeFiles/engine.dir/src/Renderer/EBO.cpp.o \
+  CMakeFiles/engine.dir/src/Core/Camera.cpp.o \
   CMakeFiles/engine.dir/src/Core/Window.cpp.o \
-  CMakeFiles/engine.dir/src/Core/Shader.cpp.o \
-  CMakeFiles/engine.dir/src/Core/camera.cpp.o \
-  CMakeFiles/engine.dir/src/Core/VAO_VBO_EBO.cpp.o \
-  CMakeFiles/engine.dir/src/Core/stb_image.cpp.o \
+  CMakeFiles/engine.dir/third_party/stb/Core/stb_image.cpp.o \
+  CMakeFiles/engine.dir/third_party/glad/src/glad.c.o \
   /usr/lib/libglfw.so.3.4 \
   /usr/lib/libGLX.so \
   /usr/lib/libOpenGL.so \
@@ -62,17 +65,23 @@ engine: \
 
 CMakeFiles/engine.dir/src/main.cpp.o:
 
-CMakeFiles/engine.dir/src/glad.c.o:
+CMakeFiles/engine.dir/src/Renderer/Shader.cpp.o:
+
+CMakeFiles/engine.dir/src/Renderer/Texture.cpp.o:
+
+CMakeFiles/engine.dir/src/Renderer/VAO.cpp.o:
+
+CMakeFiles/engine.dir/src/Renderer/VBO.cpp.o:
+
+CMakeFiles/engine.dir/src/Renderer/EBO.cpp.o:
+
+CMakeFiles/engine.dir/src/Core/Camera.cpp.o:
 
 CMakeFiles/engine.dir/src/Core/Window.cpp.o:
 
-CMakeFiles/engine.dir/src/Core/Shader.cpp.o:
+CMakeFiles/engine.dir/third_party/stb/Core/stb_image.cpp.o:
 
-CMakeFiles/engine.dir/src/Core/camera.cpp.o:
-
-CMakeFiles/engine.dir/src/Core/VAO_VBO_EBO.cpp.o:
-
-CMakeFiles/engine.dir/src/Core/stb_image.cpp.o:
+CMakeFiles/engine.dir/third_party/glad/src/glad.c.o:
 
 /usr/lib/libglfw.so.3.4:
 
