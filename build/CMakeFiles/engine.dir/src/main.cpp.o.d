@@ -260,4 +260,19 @@ CMakeFiles/engine.dir/src/main.cpp.o: \
  /home/leopold/code_projects/cpp_programs/opengl/include/Renderer/VAO.hpp \
  /home/leopold/code_projects/cpp_programs/opengl/include/Renderer/VBO.hpp \
  /home/leopold/code_projects/cpp_programs/opengl/include/Renderer/EBO.hpp \
- /home/leopold/code_projects/cpp_programs/opengl/include/Graphics/Geometry.hpp
+ /home/leopold/code_projects/cpp_programs/opengl/include/Graphics/Geometry.hpp \
+ /home/leopold/code_projects/cpp_programs/opengl/include/Graphics/Colors.hpp \
+ /usr/include/glm/glm.hpp /usr/include/c++/16/climits \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/limits.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/syslimits.h \
+ /usr/include/limits.h /usr/include/bits/posix1_lim.h \
+ /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
+ /usr/include/bits/pthread_stack_min-dynamic.h \
+ /usr/include/bits/posix2_lim.h /usr/include/bits/xopen_lim.h \
+ /usr/include/bits/uio_lim.h /usr/include/c++/16/cfloat \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/float.h \
+ /usr/include/glm/fwd.hpp /usr/include/glm/packing.hpp \
+ /usr/include/glm/detail/func_packing.inl \
+ /usr/include/glm/detail/type_half.hpp \
+ /usr/include/glm/detail/type_half.inl /usr/include/glm/integer.hpp \
+ /usr/include/glm/detail/func_integer.inl

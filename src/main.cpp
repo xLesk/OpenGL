@@ -7,8 +7,7 @@
 #include "Renderer/VBO.hpp"
 #include "Renderer/EBO.hpp"
 #include "Graphics/Geometry.hpp"
-#include <glm/ext/matrix_transform.hpp>
-#include <glm/ext/vector_float3.hpp>
+#include "Graphics/Colors.hpp"
 //=
 
 int main() {
@@ -40,18 +39,11 @@ int main() {
 
   objectCubeShader.use();
   lightCubeShader.use();
-  // shader.setInt("texture1", 0);
-  // shader.setInt("texture2", 1);
 
-  // shader colors
-  const glm::vec3 white = glm::vec3(1.0f);
-  const glm::vec3 black = glm::vec3(0.0f);
-  const glm::vec3 coral = glm::vec3(1.0f, 0.5f, 0.31f);
-  const glm::vec3 lightColor = white;
+  // lighting constants
   const glm::vec3 lightPos = glm::vec3(1.2f, 1.0f, 2.0f);
-
-  // ambient
   const float ambientStrength(0.1f);
+  const float specularStrength(0.5f);
 
   // delta time
   float dt(0.0f);
@@ -76,11 +68,14 @@ int main() {
     objectCubeShader.setCamera(window.camera, window.aspectRatio());
 
     glm::mat4 objectCubeModel = glm::mat4(1.0f);
+    glm::mat3 normalModel = glm::transpose(glm::inverse(objectCubeModel));
     objectCubeShader.setFloat("ambientStrength", ambientStrength);
-    objectCubeShader.setMat4("model", objectCubeModel);
+    objectCubeShader.setFloat("specularStrength", specularStrength);
+    objectCubeShader.setMat4("model", normalModel);
     objectCubeShader.setVec3("lightPos", lightPos);
-    objectCubeShader.setVec3("objectColor", coral);
-    objectCubeShader.setVec3("lightColor", lightColor);
+    objectCubeShader.setVec3("objectColor", Colors::coral);
+    objectCubeShader.setVec3("lightColor", Colors::lightColor);
+    objectCubeShader.setVec3("viewPos", window.camera.Position);
 
     glDrawArrays(GL_TRIANGLES, 0, 36);
 
@@ -94,7 +89,7 @@ int main() {
     lightCubeModel = glm::translate(lightCubeModel, lightPos);
     lightCubeModel = glm::scale(lightCubeModel, glm::vec3(0.2f));
     lightCubeShader.setMat4("model", lightCubeModel);
-    lightCubeShader.setVec3("lightColor", lightColor);
+    lightCubeShader.setVec3("lightColor", Colors::lightColor);
 
     glDrawArrays(GL_TRIANGLES, 0, 36);
 
