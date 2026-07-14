@@ -3,13 +3,13 @@ I am learning OpenGL with the standard book and I sort of try to morph the thing
 
 My progress with the book:
 - [x] Part I   -- Getting Started
-- [] Part II   -- Lighting
-- [] Part III  -- Model Loading
-- [] Part IV   -- Advanced OpenGL
-- [] Part V    -- Advanced Lighting
-- [] Part VI   -- PBR
-- [] Part VII  -- In Practice
-- [] Part VIII -- 2D Game
+- [ ] Part II   -- Lighting
+- [ ] Part III  -- Model Loading
+- [ ] Part IV   -- Advanced OpenGL
+- [ ] Part V    -- Advanced Lighting
+- [ ] Part VI   -- PBR
+- [ ] Part VII  -- In Practice
+- [ ] Part VIII -- 2D Game
 
 
 ### Aizawa Attractor and Lorenz Attractor Demo
