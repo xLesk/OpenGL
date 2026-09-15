@@ -46,6 +46,11 @@ void Shader::setMat4(const std::string &name, const glm::mat4 &value) const {
                      glm::value_ptr(value));
 };
 
+void Shader::setMat3(const std::string &name, const glm::mat3 &value) const {
+  glUniformMatrix3fv(glGetUniformLocation(ID, name.c_str()), 1, GL_FALSE,
+                     glm::value_ptr(value));
+};
+
 void Shader::setCamera(const Camera &camera, float aspect) const {
 
   setMat4("projection", camera.GetProjMatrix(aspect));
